@@ -1,0 +1,8 @@
+applications:
+- name: vodic
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  services:
+    - Watson Assistant (formerly Conversation)-d9
