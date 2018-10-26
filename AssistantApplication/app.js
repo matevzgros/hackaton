@@ -21,6 +21,7 @@ var bodyParser = require('body-parser'); // parser for post requests
 var AssistantV1 = require('watson-developer-cloud/assistant/v1'); // watson sdk
 
 var app = express();
+//ghgg
 
 // Bootstrap application settings
 app.use(express.static('./public')); // load UI from public folder
